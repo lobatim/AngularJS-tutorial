@@ -1,0 +1,5 @@
+Este é um projeto de um tutorial oficial do angularJS, disponível em: <div class="phone-images">
+  <img ng-src="{{img}}" class="phone"
+      ng-class="{selected: img === $ctrl.mainImageUrl}"
+      ng-repeat="img in $ctrl.phone.images" />
+</div>
